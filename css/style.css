@@ -41,8 +41,10 @@
   background: rgba(255, 255, 255, 0.07);
 }
 
-@media only screen and (max-width: 767px) {
-  .timeline:before {
+@media only screen and (max-width: 767px)
+{
+  .timeline:before
+  {
     left: 40px;
   }
 }
@@ -65,14 +67,14 @@
   width: 100%;
   position: absolute;
   color: rgba(255, 255, 255, 0.5);
-  font-size: 28px;
+  font-size: 24px;
   font-family: "Pathway Gothic One", sans-serif;
   border-left: 2px solid rgba(255, 255, 255, 0.5);
   top: 70%;
   margin-top: -5px;
   padding-left: 15px;
   opacity: 0;
-  right: calc(-100% - 56px );
+  right: calc(-100% - 56px);
 }
 .timeline-item:nth-child(even) {
   align-self: flex-end;
