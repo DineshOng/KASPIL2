@@ -9,7 +9,7 @@
 }
 .timeline__content-title {
   font-weight: normal;
-  font-size: 66px;
+  font-size: 62px;
   margin: -10px 0 0 0;
   transition: .4s;
   padding: 0 10px;
@@ -36,11 +36,13 @@
   content: "";
   background: rgba(255, 255, 255, 0.07);
 }
+
 @media only screen and (max-width: 767px) {
   .timeline:before {
     left: 40px;
   }
 }
+
 .timeline-item {
   padding: 40px 0;
   opacity: .3;
@@ -52,7 +54,8 @@
   position: relative;
   transform: translateY(-80px);
 }
-.timeline-item:before {
+
+.timeline-item:before{
   content: attr(data-text);
   letter-spacing: 3px;
   width: 100%;
@@ -143,6 +146,7 @@
   font-weight: normal;
   margin: 0;
 }
+
 .timeline-header__subtitle {
   color: rgba(255, 255, 255, 0.5);
   font-family: "Pathway Gothic One", sans-serif;
@@ -152,11 +156,20 @@
   font-weight: normal;
 }
 
+.timeline-header__section {
+  color: #fff;
+  font-family: "Pathway Gothic One", sans-serif;
+  font-size: 46px;
+  margin: 0 0 0 0;
+  font-weight: normal;
+}
+
 .demo-footer {
   padding: 60px 0;
   text-align: center;
 }
-.demo-footer a {
+
+.demo-footer span {
   color: #999;
   display: inline-block;
   font-family: Cardo;
