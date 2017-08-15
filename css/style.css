@@ -1,8 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Cardo|Pathway+Gothic+One");
-div#topcontrol img {
-  width: 50px;
-  height: 50px;
-}
 .timeline {
   display: flex;
   margin: 0 auto;
