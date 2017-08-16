@@ -11,7 +11,7 @@
 
 .timeline__content-title {
   font-weight: normal;
-  font-size: 62px;
+  font-size: 60px;
   margin: -10px 0 0 0;
   transition: .4s;
   padding: 0 10px;
@@ -145,6 +145,14 @@
   margin-bottom: 80px;
   position: relative;
 }
+
+.timeline-section {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
 .timeline-header__title {
   color: #fff;
   font-size: 46px;
@@ -162,16 +170,16 @@
   font-weight: normal;
 }
 
-.timeline-header__section {
+.timeline-section__title {
   color: #fff;
   font-family: "Pathway Gothic One", sans-serif;
-  font-size: 46px;
+  font-size: 56px;
   margin: 0 0 0 0;
   font-weight: normal;
 }
 
 .demo-footer {
-  padding: 60px 0;
+  padding: 15px 0;
   text-align: center;
 }
 
